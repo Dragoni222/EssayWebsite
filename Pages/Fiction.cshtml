@@ -191,6 +191,13 @@
 
     // Initial filter essays on page load
     filterEssays();
+    var nsfwButton = document.querySelector('.tag-disable[data-tag-id="NSFW"]');
+            if (nsfwButton) {
+                nsfwButton.classList.add('active');
+                nsfwButton.closest('.tag-disable-background').style.backgroundColor = 'rgb(255, 89, 89)';
+                filterEssays();
+           }
+    
 </script>
 </body>
 </html>
