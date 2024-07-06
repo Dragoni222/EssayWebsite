@@ -283,3 +283,6 @@ C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\runtimes
 C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
 C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\runtimes\maccatalyst-arm64\native\libe_sqlite3.dylib
 C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\runtimes\maccatalyst-x64\native\libe_sqlite3.dylib
+C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\CloudrailSI.dll
+C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\OpenSSL.PrivateKeyDecoder.dll
+C:\Users\joelh\RiderProjects\EssayWebsite\EssayWebsite\bin\Debug\net8.0\OpenSSL.X509Certificate2.Provider.dll

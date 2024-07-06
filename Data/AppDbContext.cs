@@ -1095,17 +1095,17 @@ Essays.Add(new Essay(1,
 new DateTime(2024,7,5),
 "Journal"));
 
-EssayTags.Add(new TagItem(1,1, 3));
-EssayTags.Add(new TagItem(2,1, 2));
+EssayTags.Add(new TagItem(1,1, 0));
+EssayTags.Add(new TagItem(2,1, 1));
 
             
             
             
             
-            Tags.Add(new Tag(1, "NSFW"));
-            Tags.Add(new Tag(2, "LGBTQ"));
-            Tags.Add(new Tag(3, "Posthuman"));
-            Tags.Add(new Tag(4, "AI"));
+            Tags.Add(new Tag(0, "NSFW"));
+            Tags.Add(new Tag(1, "LGBTQ"));
+            Tags.Add(new Tag(2, "Posthuman"));
+            Tags.Add(new Tag(3, "AI"));
 
 
         }
