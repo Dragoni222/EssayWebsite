@@ -12,8 +12,86 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-            //ID Info: 41,5,26
+            //ID Info: 44,5,28
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+Essays.Add(new Essay(41,
+"Within a London Market",
+""
++"      Vain. I thought I was vain to go to London just to shop. I am supposed to prefer experiences ov"
++"er mere clothes, I told myself. But you know what? No. I\'m done with second-guessing myself. I\n"
++"'m done with feeling bad for wanting to do something others don\'t. I\'m done with acting like I"
++" don\'t want to put on the dress I see in the storefront. And I\'m done looking at a science exh"
++"ibit I could have read about from the comfort of my bed back home. I don\'t like museums that mu"
++"ch anyway. \n I went to Oxford Street first. Just a bunch of department stores. Mediocracy on to"
++"p of more mediocracy. McDonalds every half mile. Waste of time. Useful only to demonstrate how m"
++"uch better the real markets were. Moving on.\n        Camden Market, however, was not a waste of time. "
++"It consists of the crème de la crème, unique and on Oxford. Highlights from Camden include a tea"
++"l cape (just in time for King Lear), a cute summer sweater, and my goal for the trip, a real Lon"
++"don coat. Camden was so good that Easton and I went twice just to make sure we got it all.\n  Bef"
++"ore entering the crush of people on Portobello Road, I told myself I wasn\'t getting anything el"
++"se. I bought what I wanted for the trip; I was just there to see the sights. How naïve I was. Si"
++"lver buttons for my cape? Yes, please. Antique jewelry fitted with clip-ons? I\'ll take four set"
++"s. A mega-cute raspberry jumper sweater: hand knit? Uh, yeah! It had more in the way of knick-kn"
++"acks and curiosities than clothes, but it certainly delivered.\n      Did I see a lot of conventional"
++" art in London? Nope. But then, is the body not art in its own way? Is fashion not an expression"
++" of the self as much as painting or writing? My London wardrobe is my museum, the mirror a gilde"
++"d frame, and my clothes? My art.\n",
+new DateTime(2024,7,6,15,12,30),
+"Journal"));
+Essays.Add(new Essay(42,
+"How Often Do You Get To Be Sick In London?",
+""
++"Even through my eyelids, the rays of light that peek around the corner of the curtains in our ho"
++"tel room burn my retinas. My phone displays 2 p.m., along with a text from my parents about the "
++"absence of a trip report from the night before. Even without a face or voice, my phone screen st"
++"ill seems to judge me. I should have been furious at the sickness chaining me to my bedposts. I "
++"wasn\'t angry. Even in retrospect, I am unperturbed by the time I spent with no view greater tha"
++"n the hotel wall.\n   You could say that while I was sick, I did nothing well. In fact, I did noth"
++"ing fabulously. I ruminated on the nature of being sick, which is something the current writer-m"
++"e is thanking past sick-me for. I formulated the basis for this essay. I ate carrot batons (yes,"
++" that\'s what they call baby carrots there) and rewatched my favorite show, which never fails to"
++" stab me through the heart. \n        To think of only joyous times as valuable is such a waste, I thin"
++"k. I don\'t mean the classic \"good things are only good if you have bad things to compare them "
++"to.\" I don\'t mean \"life is a sacred gift and to do less with it is blasphemy.\" I don\'t mean"
++" \"make the most of a bad situation.\" No, I mean \"to be stabbed in the gut is perhaps unpleasa"
++"nt but no less real than any other experience.\" I mean \"even at the lowest of lows we can find"
++" not joy as we may wish but a certain rough-edged ragged appreciation, like cutting through toug"
++"h bread with a serrated knife.\" I mean \"life has always been more akin to acned skin than clea"
++"r, to a forty-three-degree drizzle than seventy-one sunshine, to transience and loss than securi"
++"ty and prosperity.\"  \nDeep under the effects of boredom and medicine, I reveled. I reveled in "
++"the frustration of seeing the hotel wall instead of the paintings in the National Gallery. I rev"
++"eled in the pain my stomach reported in acute detail. I reveled in the unique and unmistakable e"
++"xperience of living as a mortal being. I reveled in my word of the year, \"impermanence,\" both "
++"as it relates to death and my diminished time in London. \n   Truth be told, having less gave me m"
++"ore. Feeling worse made me feel better. Becoming powerless empowered me. Were those two painful "
++"days my favorite of the trip? No, but they weren\'t my least favorite either. They were head and"
++" shoulders better than the fifteen-hour flight times and shitty airport food, at least. \n",
+new DateTime(2024,7,6,15,13,30),
+"Journal"));
+Essays.Add(new Essay(43,
+"In Memory of David Greenstreet",
+""
++"Today we are gathered here to mourn the loss of one Davis Greenstreet. In his time, he was a jol"
++"ly good fellow, from the times he made mac and cheese with gatorade or mug root beer to when he "
++"was defending Fortnight with his life against Aarjo. As for myself, I will miss the way he ran a"
++"t women blindly, only to run away again just days later. I have often joked that when one lives "
++"by the ocean, one has but few photos of the ocean, and in this case the ocean is Davis\' dumptru"
++"ck ass. I took a few photos for posterity in his dying days, but it will never, ever be enough. "
++"Although he died in a rather grandiose and frankly graphic fashion (he would not have wanted it "
++"any other way), those who knew him well will note that he died not by Aarjo\'s knife, nor heartb"
++"reak, nor jumping off the edge of his bunk (as he was prone to do). He died among those I hope h"
++"e would call his friends, on the floor, face down, ass up, in a way only Mr. Greenstreet could h"
++"ave found comfortable.\n\nI, just, what was the point of it all? Is it true that to love and los"
++"e is better than not to love at all? To have and then to not have, to ride the waves and then dr"
++"own? Those who know him understand that when he left, he left with our hearts, still bloody and "
++"beating. To see him go is to lose a part of myself that I didn\'t even know was there. That part"
++" of me was his whimsy, his lust for Studio chocolate milk, his terrible table manners. I don\'t "
++"know how I\'ll get by without him. Wherever he is now, I hope he\'s happy.\n",
+new DateTime(2024,7,6,15,14,50),
+"Journal"));
+
+EssayTags.Add(new TagItem(26,41,1));
+EssayTags.Add(new TagItem(27,43,0));
 Essays.Add(new Essay(40,
 "Atlas",
 ""
