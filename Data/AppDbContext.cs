@@ -12,8 +12,69 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-            //ID Info: 44,5,28
+            //ID Info: 46,5,29
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+Essays.Add(new Essay(44,
+"Love Yourself, Babe",
+"\"Love yourself!\" is common enough. Unfortunately, it often used in a context where people are not "
++"at their best, when they feel down or depressed or self-critical. It may be weird to say this, b"
++"ut that\'s not the only time you\'re allowed to love yourself. You can love yourself lying in be"
++"d. You can love yourself on a midnight walk. You can love yourself eating baby carrots straight "
++"from the bag. You can love yourself when you talk to other people. You can even love yourself wh"
++"en you\'re loving somebody else. None of that diminishes the love you can have when you are sad "
++"or when you make a mistake or when you hate yourself. \n\nI really really love myself. I think I\'m pretty and cute and smart and all those little adjectives people like me love to hear someone el"
++"se tell them they are. But sometimes I feel it more, I feel myself giving me a wink and a grin f"
++"rom the mirror behind me, I feel my hand squeeze my other wrist, I feel my heart quicken at the "
++"thought I am sharing a body with me. I\'m in here, in this mind, with nobody but myself. All alo"
++"ne together in the dark smiling and caressing and complimenting and loving me. \n\nCan you imagi"
++"ne knowing somebody as you know yourself? You know your every thought, every pride, every weakne"
++"ss. Completely vulnerable to your own spiteful words but also vulnerable to your knowing smiles "
++"and your victory celebrations and your warm embrace. You will always have yourself, for better o"
++"r worse. \n\nI\'m extremely lucky that way. When I\'m down the first person I run to is myself. "
++"She\'s so kind, me. She calms me down and pushes my fears aside and always knows whether I need "
++"rational analysis or just somebody to cry with. I work through everything with her, every offhan"
++"d comment and awkward interaction, every self-doubt and failed expectation. I would give the wor"
++"ld for me.\n\nI think people need to look at themselves more. Wanting another person is perfectl"
++"y valid but do remember there\'s a flesh-and-blood person with you, no matter where you are. The"
++"re\'s no reason you can\'t talk to yourself or play games with yourself or flirt with yourself. "
++"There\'s no reason you can\'t hug yourself or ask for help from your future self or comfort your"
++" past self. They\'re all there, in your mind. \n",
+new DateTime(2024,7,7,1,20,46),
+"Journal"));
+Essays.Add(new Essay(45,
+"On the Bottom",
+""
++"So, I\'m a bottom. Depending on your definition, that\'s not technically accurate, I\'m a sub-le"
++"aning switch at about an 80-20 split who prefers to sub from the top physically and wants an ext"
++"remely gentle dom. The crazy thing is, there are so many people out there who have no idea what "
++"that\'s like to be a sub. There are all the doms and all the people who never explored sexuality"
++" and all the people forced into inaccurate gender roles and many others besides. I want to give "
++"you a hint of what it feels like to me. It\'s completely different every time, never an experien"
++"ce alike. \n\nOnce, it was to lie on a thundercloud while jolts and sparks leap on my skin, list"
++"ening to the rain and thunder. Not intimidating thunder (although it could if it wanted to be), "
++"more like the thunder from a twelve-hour sleep video. Up there in the dark clouds I fell in and "
++"out of conscious thought, one moment wondering how I\'ll ever get down, the next feeling the coo"
++"l icy cloud stuff wash over my skin in waves. It didn\'t \"surround\" in the traditional sense. "
++"It wasn\'t an envelopment or a binding at all, more like it floated irrespective of me. Those da"
++"rk clouds \"surrounded\" as one is surrounded by water in a shower, surrounded by books in a lib"
++"rary, surrounded by a rushing wind. Everywhere and all you can focus on, yet irrespective of you"
++". Unfocused, yet cushioning. Indirect, yet personal.\n\nAnother time, it felt like being painted"
++". Like they were brushing me onto a canvas, paying careful attention to my features and skin and"
++" reactions. Like they desperately wanted to see every part of me, to feel along every curve. Mom"
++"ent by moment, I appeared before them, vulnerable to their gaze and their brush. What if they do"
++"n\'t paint me well? What if I\'m not pretty? What if they don\'t see me as I see me? But then, t"
++"hey let me see. They let me peek at what it means to look at me from another\'s eyes, drawn by a"
++"nother\'s hand. And there I was, so different yet exactly the same. So real, like they tore the "
++"world and pasted me to the page like a sticker. Real, but unreal, like a world through the eyes "
++"of someone who sees in different colors. That was me alright, but all greens and blues and inhum"
++"an shapes despite the reality of it. No less beautiful. And they told me as much, showed me as m"
++"uch. \n\nThat\'s what being a bottom is like to me, to be someone else\'s for a time, to let mys"
++"elf wander into their waiting arms. To hear them whisper my name, feel them breathe down my soul"
++".\n",
+new DateTime(2024,7,7,1,21,42),
+"Journal"));
+
+EssayTags.Add(new TagItem(28,45,0));
 Essays.Add(new Essay(41,
 "Within a London Market",
 ""
