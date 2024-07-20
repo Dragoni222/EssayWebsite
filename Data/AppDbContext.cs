@@ -12,8 +12,30 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-            //ID Info: 57,5,30
+            //ID Info: 58,5,30
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+            Essays.Add(new Essay(57,
+                "On Bouncers",
+                ""
+                +"Fundamentally, a craftsman chooses. They choose a material and a shape and a method and an audie"
+                +"nce. It\'s not hard for a writer to write or a programmer to program or a painter to paint. It i"
+                +"s hard to choose what to write, what to program, what to paint. \n\nThe bouncer is one such arti"
+                +"st. Anyone\'s muscles can turn someone away. It takes a real genius to choose which people. And "
+                +"it hurts, I imagine. Instead of mincing words they mince flesh. They go through a line like a gi"
+                +"rl goes through a clothes rack, on touch, one word is all it takes. Not quite soft or rough enou"
+                +"gh, not quite the right attitude, not quite the fit for my other clothes, my other people. It hu"
+                +"rts but it is necessary. \n\nTo be in a club is to be sculptor and stone and spectator, you must"
+                +" make and be made and admire the making. It\'s a monumental task that few are truly good at. You"
+                +" can always tell who. The genius sculptor in their perfect outfit and perfect rhythm and perfect"
+                +" enthusiasm surrounded in the crowd. The pliable, beautiful stone that flows and melts in the li"
+                +"ghts and sounds, shaped by the sculptors into who make them who they were meant to be, who they "
+                +"always were. The spectators who seem to flit and float with their drinks and reflect all that pr"
+                +"essure and pleasure blinding humanity back to the dance floor, back to this human firing kiln. \n"
+                +"\nIt is a real talent those bouncers have, to see with just a glance the sculptor or stone or s"
+                +"pectator (or lack thereof) a wannabe club attendee offers. It is art like any other. Art painted"
+                +" with people and personality instead of punctuation or paint. \n",
+                new DateTime(2024,7,20,17,54,57),
+                "Journal"));
 Essays.Add(new Essay(46,
 "Landscapes of the UK",
 ""
@@ -66,7 +88,7 @@ Essays.Add(new Essay(48,
 new DateTime(2024,7,14,11,15,36),
 "Journal"));
 Essays.Add(new Essay(49,
-"Highlands Ascendency",
+"Above Dust and Pebbles",
 ""
 +"Every step we take is an earthquake on fragile meadows, \nevery step a boundless shadow across t"
 +"he grass below.\nWe are giants above mites and microbes,\nabove dust and pebbles.\n\nEvery earth"
