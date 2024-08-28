@@ -12,8 +12,38 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-            //ID Info: 58,5,30
+            //ID Info: 59,5,31
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+Essays.Add(new Essay(58,
+"And This Too Is Yuri",
+""
++"On some faraway dock,\nfurther than you want \nbut closer than you fear,\nThe water touches the "
++"land. \nIt rubs the backs of the many-mini-dunes,\nlightly brushes the seashells and shale stone"
++"s.\nThe ocean\'s kelp tongues\nlick against the sand\nin lagoon and river mouths.\nAnd this is y"
++"uri.\n\nFrom that same dock,\nthe sky touches the sea.\nSunset clouds in peach and maroon,\nRefl"
++"ect across the horizon into the water,\nAirborne frozen vapor rendered liquid by liquid waves.\n"
++"All the while navy-flint ocean reflects back upon the air,\nSeaborne spray, then mist, then clou"
++"d again.\nWater unto water into water onto water.\nLess a cycle and more of an embrace,\ncontinu"
++"ous not just in time but space too. \nBetween lovers sits the flinty sailors of the navy,\nsitti"
++"ng on their peaches, marooned.\nFragments of that love reflected,\nin their sun-stained bruises,"
++"\ntheir storm-swept hair,\ntheir sea-stoic resolve.\nAnd this, too, is yuri.\n\nMade of and maki"
++"ng that dock,\n(And that water and sky and mist and sail)\nspace and time touch.\nThey curve and"
++" flex and arch\nat every breath down the other\'s neck.\nJointly connected at a right angle to o"
++"ther,\nThe moment stretches and slows as space leans into time.\nTogether they move faster and f"
++"aster and faster,\nalways approaching light speed, \napproaching a kiss, \napproaching the end,\n"
++"but never finishing.\nAnd this, too, is yuri.\n\nWithin and without that dock,\nin creatures bi"
++"rthed of sea and sky and sailor,\nwroght of time and bound by space,\nlife and death touch.\nNec"
++"essarily separated, sure,\nbut no less married,\nthe endless cycle their wedding ring.\nTwo side"
++" of the same coin,\nnever one without the other,\nand further,\nno coin at all without either.\n"
++"Every waking moment of death, \nconsumed by life,\nso too every moment of life,\nconsumed by dea"
++"th.\nLife and death, \nhunter and hunted,\nbreathing and choking,\nbite marks and kisses.\nAnd t"
++"his, too, is yuri.\n\nStanding on that dock,\nWatching the waves and clouds and boats,\nBreathin"
++"g in space through time,\nLiving in this moment (perhaps more than ever),\nEven as past selves d"
++"ie (loved but not missed),\nYou and I touch.\n\nAnd this, too, is yuri.\n",
+new DateTime(2024,8,27,22,6,59),
+"Poem"));
+
+EssayTags.Add(new TagItem(30,58,1));
             Essays.Add(new Essay(57,
                 "On Bouncers",
                 ""
