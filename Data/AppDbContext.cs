@@ -12,8 +12,27 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-            //ID Info: 59,5,31
+//ID Info: 60,5,32
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+            Essays.Add(new Essay(59,
+                "look down",
+                ""
+                +"look down\n(your nerves say,)\nhide from eyes\nwhich never feel quite\n    indifferent\n\nyou\'v"
+                +"e got teeth, kid\nbut dont let them see that\ndont let them see you\n\nLook down. \n(your brain "
+                +"says,)\nFocus on the questions.\nOr you\'ll just be another in the crowd.\n    Normal.\n\nYou\'r"
+                +"e better than this.\nYou can solve it in seconds if you\ncould just put your mind to it.\n\nLook"
+                +" Down\n(your ego says)\nSee How Far You\'ve Come\nYou Wanted Power? Prestige? Purpose?\nI\'ll Do"
+                +" You One Better, How About\n    Perfect.\n\nI Alone Can Take You There\nForce Of Will To Force W"
+                +"ills\nNo Better Way To Where You\'re Going\n\nlOOK dOWN\n(your heart says, or rather,\nscreams)\"
+                +"nyOURE tEARING mE oUT\nyOU cANT bECOME tHIS\nyOU cANT lEAVE mE \n    aLONE\n\ni bEAT fOR yOU\ni "
+                +"bLEED fOR yOU\nyOU nEED mE\n\n$>LOOK DOWN.\n(your silicon says)\n$>SENSORY SYNC COMPLETE.\n$>UPL"
+                +"OAD IN PROGRESS.\n$> |################|\n    $> COMPLETE\n\n-<Look down, _____>-\n(your auditory"
+                +" sensor records)\n-<See the moments you\'ve saved? Polished?>-\n-<Beautiful, perfect lives for e"
+                +"veryone? What mor>-\n$> INCORRECT. [1] LIFE STILL UNPERFECTED.\n    $> MINE.\n",
+                new DateTime(2024,9,12,20,8,33),
+                "Poem"));
+
+            EssayTags.Add(new TagItem(31,59,2));
 Essays.Add(new Essay(58,
 "And This Too Is Yuri",
 ""
