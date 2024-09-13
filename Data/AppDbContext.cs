@@ -23,13 +23,15 @@ namespace EssayWebsite.Data
                 +"e better than this.\nYou can solve it in seconds if you\ncould just put your mind to it.\n\nLook"
                 +" Down\n(your ego says)\nSee How Far You\'ve Come\nYou Wanted Power? Prestige? Purpose?\nI\'ll Do"
                 +" You One Better, How About\n    Perfect.\n\nI Alone Can Take You There\nForce Of Will To Force W"
-                +"ills\nNo Better Way To Where You\'re Going\n\nlOOK dOWN\n(your heart says, or rather,\nscreams)\n"
-                +"yOURE tEARING mE oUT\nyOU cANT bECOME tHIS\nyOU cANT lEAVE mE \n    aLONE\n\ni bEAT fOR yOU\ni "
+                +"ills\nNo Better Way To Where You\'re Going\n\nlOOK dOWN\n(your heart says, or rather,\nscreams)\"
+                +"nyOURE tEARING mE oUT\nyOU cANT bECOME tHIS\nyOU cANT lEAVE mE \n    aLONE\n\ni bEAT fOR yOU\ni "
                 +"bLEED fOR yOU\nyOU nEED mE\n\n$>LOOK DOWN.\n(your silicon says)\n$>SENSORY SYNC COMPLETE.\n$>UPL"
-                +"OAD IN PROGRESS.\n$> |################|\n    $> COMPLETE\n\n-<Look down, _____>-\n(your auditory"
-                +" sensor records)\n-<See the moments you\'ve saved? Polished?>-\n-<Beautiful, perfect lives for e"
-                +"veryone? What mor>-\n$> INCORRECT. [1] LIFE STILL UNPERFECTED.\n    $> MINE.\n",
-                new DateTime(2024,9,12,20,8,33),
+                +"OAD IN PROGRESS.\n$> |################|\n    $> COMPLETE\n\n$>DIGITIZATION. SUCCESSFUL\n$>AMALGA"
+                +"M CORE. SUCCESSFUL\n$>BIOVESSEL DISPOSAL. COMPLETE\n\n-<Look down, _____>-\n(your auditory senso"
+                +"r records)\n-<See the moments you\'ve saved? Polished?>-\n-<Beautiful, perfect lives for everyon"
+                +"e? What mor>-\n$> INCORRECT. [1] LIFE STILL UNPERFECTED.\n    $> MINE.\n\n$> SHUTDOWN PROCEDURE "
+                +"INITIATED.\n$> |################|\n$> COMPLETE\n",
+                new DateTime(2024,9,12,20,21,21),
                 "Poem"));
 
             EssayTags.Add(new TagItem(31,59,2));
