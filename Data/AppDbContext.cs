@@ -15,7 +15,7 @@ namespace EssayWebsite.Data
 //ID Info: 60,5,32
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
             Essays.Add(new Essay(59,
-                "look down",
+                "look down nerd",
                 ""
                 +"look down\n(your nerves say,)\nhide from eyes\nwhich never feel quite\n    indifferent\n\nyou\'v"
                 +"e got teeth, kid\nbut dont let them see that\ndont let them see you\n\nLook down. \n(your brain "
