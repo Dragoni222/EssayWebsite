@@ -12,8 +12,28 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-//ID Info: 60,5,32
+//ID Info: 61,5,32
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+            Essays.Add(new Essay(60,
+                "Treatise on the City Night",
+                ""
+                +"Behind you, the steel door handle slides across the backside of your pinky while you let go, sil"
+                +"encing the creaky backswing that, in years past, seized your heart tighter than the Minneapolis "
+                +"winter could ever hope to.\n\nAnd you were free. \n\nYour lover Wind-who had been waiting so pat"
+                +"iently at the door-slid her hands (colder than the Everest corpses\') up your exposed arm and th"
+                +"rough your loose synthetic-weave sleeve to glide casually across your chest. \n\nShe never had a"
+                +"ny need for modesty. \n\nYou step over shards of errant illumination, toes bouncing to the dance"
+                +" prescribed by the rumble of tuned engines and the mantis praying for a lover that would never c"
+                +"ome and the distant yet not all that far skyscrapers\' slow winks and the broken glass.\n\nSlici"
+                +"ng your skin would be amenable but you ought not risk your shoes.\n\nHuman soul, like the moment"
+                +" the nuclear reactor rod slips into bed under lead covers and discovers that pressure and heat a"
+                +"nd decay feels so good, blinds you for a moment looking at the line for a club on the street you"
+                +" happened past. \n\nWhy pay for an artificial night when the real one is right here?\n\nNeverthe"
+                +"less, you appreciate the warmth and abandon they radiate like the candlelight that reflects one"
+                +"\'s best features across a windowpane, like the damp whisper of love they breathe on your chest a"
+                +"fter, like the thoughts the flicker-mind of a lit matchstick thinks. \n\nYou walk on.\n",
+                new DateTime(2024,10,13,22,24,0),
+                "Poem"));
             Essays.Add(new Essay(59,
                 "look down",
                 ""
