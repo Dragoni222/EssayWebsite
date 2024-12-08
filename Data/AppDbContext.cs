@@ -12,8 +12,25 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-//ID Info: 61,5,32
+//ID Info: 62,5,32
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+            Essays.Add(new Essay(61,
+                "Whisper",
+                ""
+                +"Synapse\n\nNice sort of crackle it has, yeah? You can practically hear its passing. A word that "
+                +"leaves you before you hear it, already stirring up a current behind your eyes. Glowing gunshot s"
+                +"traight through the skull, lifting surprised lips to taste the falling droplets.\n\nSynapse\n\n\n"
+                +"\nFurtive\n\nTastes of Chekhov\'s gunsmoke. You breathe it in, a glance at the ur, weakness wit"
+                +"h the t, a bit lip in the v. Infatuating, infuriating, addicting. Pull back at the last moment, "
+                +"mourn the selves that died with your hesitation.\n\nFurtive\n\n\n\nLithe\n\nThe quiet friend of "
+                +"agile and dexterous, loud lover of lethal. Spiked dancing shoes like heat waves from flowing mag"
+                +"ma, like the first stone\'s grin and wink before an avalanche, like a calved glacier\'s ripple. "
+                +"Beware the lithosphere.\n\nLithe\n\n\n\nUltimate\n\nGlory in a can. Ul ~ open your throat to rec"
+                +"eive your mandated awe. You didn\'t enjoy your time before it, yet you feel no relief with its p"
+                +"assing. Not a neutral ending, per se, just a false finality, like the end of a movie engineered "
+                +"for a sequel. They do not leave the best for last. \n\nUltimate\n",
+                new DateTime(2024,12,8,2,39,51),
+                "Poem"));
             Essays.Add(new Essay(60,
                 "Treatise on the City Night",
                 ""
