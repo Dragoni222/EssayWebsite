@@ -12,8 +12,23 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-//ID Info: 62,5,32
+//ID Info: 63,5,32
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+            Essays.Add(new Essay(62,
+                "Adorable",
+                ""
+                +"I love that tired old cliche of the stuck-up princess who leaves her castle in some regal carava"
+                +"n only to find the \"common people\" aren\'t so bad after all. What I love more is when the prin"
+                +"cess was never stuck-up to begin with; the princess who leaves her silken rooms against her Fath"
+                +"er The King\'s behest to see people whose words build mossy bridges and gurgling streams rather "
+                +"than ramparts and tacky vaults. This princess who secretly loves care and attention like any roy"
+                +"alty, but only from someone who cares for themselves as they care for her. She wears clothes lik"
+                +"e a snake wears her scales: polished, waxy, instinctive beauty only to shed and reveal that thos"
+                +"e clothes are no different from her skin underneath. I so love that princess who is not afraid t"
+                +"o tell me what they want, who is not afraid of my response to such a question, who is not afraid"
+                +" to shed her scales when wrapped in my arms.",
+                new DateTime(2024,12,30,14,43,13),
+                "Poem"));
             Essays.Add(new Essay(61,
                 "Whisper",
                 ""
