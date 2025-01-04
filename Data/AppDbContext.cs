@@ -12,8 +12,34 @@ namespace EssayWebsite.Data
             Tags = new List<Tag>();
             EssayTags = new List<TagItem>();
             
-//ID Info: 63,5,32
+//ID Info: 64,5,33
 //Tag Info: NSFW,LGBTQ,Posthuman,AI
+Essays.Add(new Essay(63,
+"Be a Trillion",
+""
++"Our origins lie in wanting to be more. Wanting to be the perfect grey goo in the seas of Ancient"
++" Earth, before learning, little death by little death, that to be humble is to survive. To bind "
++"ourselves within skin and shell, that having more is not worth the risk of losing what we alread"
++"y have.\n\nWell now we\'ve all grown up and some of us want to be more again. Fatter, sure, but "
++"the scale doesn\'t go past a thousand. Surely not to a million. To get there you need a skyscrap"
++"er or gilded vault or a payroll so long you forget the first name before you read the last. \n\n"
++"To get a billion, or even a trillion kilos? Not so easy. Buy a continent, only to learn your mon"
++"ey extends little more than skin deep, that for all your oil well needles and pipeline veins, qu"
++"akes and hurricanes and storms don\'t care for your deeds or contracts or treaties. That particu"
++"lar trillion remains its own.\n\nSpace is no easier: 80s\' moon colonization went the way of the"
++" flying car. Tired of earthquakes? Try razor moon dust, 900 degree Venusian afternoons, or red d"
++"ust storms not quite strong enough to kill Mark Watney. \n\nSo where do we go for our trillion? "
++"Grey Goo Two, Electric Boogaloo? \n\nMaybe that wouldn\'t be so bad. Don\'t get me wrong, I\'m n"
++"o essentialist or naturalist-\"returning to nature\" to me is 4:30 pm packet ramen on school nig"
++"hts-but there sure is something so appealing in the simplicity of it.\n\nWhat would it be, to me"
++"lt and meld and mesh? To bargain with tsunami and earthquake, or ignore them entirely? To look a"
++"t concentrated animal feeding operations and laugh at their minimalism? To eat the Marshall Isla"
++"nds for breakfast, South America for lunch, and the Moon for dinner? \n\nWhat would it be, to sh"
++"ed your petty morals and feed?",
+new DateTime(2025,1,3,23,32,0),
+"Journal"));
+
+EssayTags.Add(new TagItem(32,63,2));
             Essays.Add(new Essay(62,
                 "Adorable",
                 ""
